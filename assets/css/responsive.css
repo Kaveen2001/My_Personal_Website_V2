@@ -1,0 +1,160 @@
+/** Add Media Queries */
+@media (max-width: 1200px) {
+   html {
+       font-size: 55%;
+   }
+}
+
+@media (max-width: 991px) {
+    #headerSection {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    #servicesSection {
+       padding-bottom: 7rem;
+    }
+
+    #jobs\&ExperienceSection {
+        padding-bottom: 7rem;
+    }
+
+    .contactUs-section {
+        min-height: auto;
+    }
+
+    #footerSection {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    #homeSection {
+        flex-direction: column;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    #aboutMeSection {
+        flex-direction: column-reverse;
+    }
+
+    .aboutMe-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    #servicesSection h1 {
+        margin-bottom: 3rem;
+    }
+
+    #jobs\&ExperienceSection h1 {
+        margin-bottom: 3rem;
+    }
+
+    .experience-container {
+      grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .education-section {
+        margin: 50px auto;
+    }
+
+    .education-section::after {
+        left: 31px;
+    }
+
+    .education-content {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .education-Places {
+        font-size: 13px;
+    }
+
+    .education-Places p {
+        margin-bottom: 10px;
+    }
+
+    .right-container {
+        left: 0;
+    }
+
+    .left-container img, .right-container img {
+        left: 10px;
+    }
+
+    .left-container-arrow, .right-container-arrow {
+        border-right: 15px solid var(--text-color);
+        border-left: 0;
+        left: -15px;
+    }
+}
+
+@media (max-width: 450px) {
+     html {
+         font-size: 50%;
+     }
+
+    .contactUs-box form .input-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+   .home-img img {
+       width: 90vw;
+   }
+
+    .aboutMe-img img {
+        width: 90vw;
+    }
+
+    #footerSection {
+        flex-direction: column-reverse;
+    }
+
+    .footer-text p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
